@@ -1,3 +1,7 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
+
 body{
     background-color: aliceblue;
     display: flex;
@@ -6,6 +10,7 @@ body{
     height: 100vh;
      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 
 
 
@@ -27,6 +32,7 @@ h1{
 }
 
 form{
+   
   input{
     padding: 10px;
     border: 0;
@@ -76,4 +82,30 @@ svg{
 }
 
 
+
+// added items
+
+// form,.addedItemBox{
+// width:3 !important;
+// }
+.addedItemBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   position: relative;
+   padding: 7px;
+   left:-1.1rem;
+    &:hover{
+        background-color: aliceblue;
+    }
+}
+
+
+h3{
+    font-weight:500;
+    font-size: 1rem;
+    color: #222;
+    letter-spacing: 1px;
+    margin-block: 0;
+}
 

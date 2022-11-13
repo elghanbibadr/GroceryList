@@ -63,17 +63,21 @@ svg{
     cursor: pointer;
 
 }
+
+
 .message{
     border-radius: 20px;
-    font-size: 14px;
+    font-size: 12px;
     padding-block: 5px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
+
 .message.red{
 color: red;
 background-color: rgba(255, 0, 0, 0.099);
 }
+
 .message.green{
 color: rgb(117, 192, 4);
 background-color:rgba(172, 255, 47, 0.33);
@@ -98,7 +102,9 @@ background-color:rgba(172, 255, 47, 0.33);
 }
 
 
-
+.hidden{
+    display: none;
+}
 
 .addedItemBox{
     display: flex;
